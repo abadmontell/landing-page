@@ -348,7 +348,7 @@ div.desc2 {
 
 /*Seccion responsiva*/
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 section {
 float: left;
 }
