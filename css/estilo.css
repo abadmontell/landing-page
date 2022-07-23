@@ -1,0 +1,404 @@
+ /*Estilo de fuente*/       
+ @font-face {
+  font-family: "Raleway";
+  src: url("fonts/Raleway/Raleway-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Raleway-semi-bold";
+  src: url("fonts/Raleway/Raleway-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-condensed";
+  src: url("fonts/Roboto/Roboto-Condensed.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-bold-condensed";
+  src: url("fonts/Roboto/Roboto-BoldCondensed.ttf");
+}
+
+/*Encabezado*/
+h2,
+h1,
+h2,
+h3,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway';
+}
+
+a {
+  font-family: 'Raleway';
+}
+
+p {
+  font-family: 'Roboto';
+}
+
+
+body {
+  margin: 0px;
+  background-color: #efefef;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #3377ff;
+}
+
+
+
+#header {
+  text-align: center;
+  padding: 25px;
+}
+
+#logo>img {
+  width: 3.2em;
+
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+.btn {
+  height: 60px;
+  width: 150px;
+  background-color: #3377ff;
+  color: #FFFFFF;
+  font-size: 16px;
+  margin: 15px 15px 15px 15px;
+  padding: 15px 15px 15px 15px;
+  border: 1px solid transparent;
+  user-select: none;
+  text-align: center;
+  text-transform: none;
+
+}
+
+.btn:hover {
+  background-color: #2d6be5;
+}
+
+
+
+/*Jumbotron*/
+.container {
+  text-align: center;
+  color: white;
+  
+}
+.centrar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#imgProducto {
+  width: 100%;
+  filter: brightness(50%);
+}
+/*Tamaño de fuente*/
+.t1 {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.t2 {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.t3 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.t4 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.p1 {
+  font-size: 1.2em;
+}
+
+.p2 {
+  font-size: 1em;
+}
+
+/*Diseño de secciones*/
+.caja1 {
+  padding-top: 25px;
+  padding-right: 25px;
+  padding-left: 25px;
+  background-color: #ffffff;
+  padding-bottom: 25px;
+  width: 100%;
+  float: left;
+}
+
+.caja2 {
+
+  padding-top: 35px;
+  padding-right: 35px;
+  padding-left: 35px;
+  padding-bottom: 35px;
+  width: 100%;
+  float: left;
+}
+
+.caja3 {
+  padding-top: 35px;
+  padding-right: 35px;
+  padding-left: 35px;
+  padding-bottom: 35px;
+  width: 100%;
+  float: left;
+  background-color: #333333;
+  color: white;
+}
+
+.subCaja {
+  padding-bottom: 30px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.subCaja2 {
+  padding-bottom: 30px;
+  padding-right: 250px;
+  padding-left: 250px;
+}
+
+.producto {
+  text-align: center;
+
+}
+
+.producto img {
+  padding: 15px;
+
+}
+
+
+
+div.card {
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+
+  padding: 20px;
+}
+
+div.card:hover {
+  border: 1px solid #777;
+}
+
+div.card img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+div.card2 {
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+div.card2:hover {
+  border: 1px solid #777;
+}
+
+div.card2 img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+div.desc {
+  padding: 35px;
+  text-align: justify;
+  line-height: 1.7;
+
+}
+
+div.desc2 {
+  padding: 35px;
+  text-align: justify;
+  line-height: 1.7;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 33.333%;
+}
+
+
+.responsive2 {
+  padding: 0 6px;
+  float: left;
+  width: 50%;
+}
+
+.opciones {
+  float: left;
+}
+
+.opciones a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 7px 8px;
+  text-decoration: none;
+  font-family: 'Raleway';
+}
+
+.opciones a:hover {
+  color: #2d6be5;
+}
+
+
+.opcionesRedes a {
+  text-decoration: none;
+
+  font-size:30px;
+  color: white;
+  text-align: left;
+  padding: 7px 8px;
+  text-decoration: none;
+  font-family: 'Raleway';
+}
+
+.opcionesRedes a:hover {
+  color: #2d6be5;
+}
+
+.pie {
+  padding-right: 35px;
+  padding-left: 35px;
+  width: 100%;
+  float: left;
+  text-align: center;
+  background-color: #333333;
+  color: white;
+  font-family: 'Raleway';
+
+}
+.pie p{
+  font-family: 'Raleway';
+}
+
+#email{
+  width: 370px;
+  height: 55px;
+  font-size: 20px;
+  font-family: 'Raleway';
+}
+
+
+
+/*Seccion responsiva*/
+
+@media (max-width: 768px) {
+section {
+float: left;
+}
+
+#menu li  {
+  width: 100%;
+}
+
+.centrar{
+margin-top: 200px;
+font-size:50%;
+text-align: center;
+}
+#email{
+float: left;
+}
+#suscribirse{
+float: left;
+height: 50%;
+width: 50%;
+}
+.subCaja{
+float: left;
+width: 100%;
+}
+.producto img{
+float: left;
+width: 100%;
+}
+.responsive {
+float: left;
+width: 100%;
+}
+.card {
+float: left;
+width: 100%;
+}
+
+.responsive2 {
+float: left;
+width: 100%;
+}
+.card2 {
+float: left;
+width: 100%;
+}
+
+.subCaja2{
+padding-left: 5px;
+padding-right: 5px;
+}
+
+}
